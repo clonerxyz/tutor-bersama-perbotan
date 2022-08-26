@@ -30,12 +30,15 @@ sock.ev.process(
 			if(events['connection.update']) {
 				const update = events['connection.update']
 				const { connection, lastDisconnect } = update
-				if(connection === 'close') {
-					
+				if(lastDisconnect?.error?.output?.statusCode === DisconnectReason.restartRequired) {
+					startSock()
 				}
-				else if(connection === 'open') {
-				
+				if(lastDisconnect?.error?.output?.statusCode === DisconnectReason.timedOut) {
+					startSock()
 				}
+			}
+			if(events['creds.update']) {
+				await saveCreds()
 			}
 			if(events['messages.upsert']) {
 				const upsert = events['messages.upsert']
