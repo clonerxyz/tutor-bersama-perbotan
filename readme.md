@@ -4,7 +4,7 @@
 
 <b>Big thanks</b> for the parent of god for all bot nowdays : [Baileys](https://github.com/adiwajshing/Baileys) module for whatsapp.
 
-> NOTE : Incase not 100 % safe and sure for use its just for testing only
+> NOTE : Incase not 100 % safe and for sure use its just for testing only
 
 </div>
 
