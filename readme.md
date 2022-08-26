@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img width="50%" height="50%" src="https://github.com/clonerxyz/tutor-bersama-perbotan/blob/master/cantik.png">
+
 <b>Big thanks</b> for the parent of god for all bot nowdays : [Baileys](https://github.com/adiwajshing/Baileys) module for whatsapp.
 
 > NOTE : Incase not 100 % safe and for sure use its just for testing only
