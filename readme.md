@@ -50,7 +50,7 @@ just :
 
 > group id and personal id stored in keyid.txt
 
-another feature explanation on other days thanks
+another feature explanation on other days thanks1
 
 ## all menu
 
