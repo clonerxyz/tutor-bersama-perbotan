@@ -23,9 +23,9 @@
 
 
 █ *downloader*
-▌	*yt* https://www.youtube.com/watch?v=xcXLL1L-ncA
-▌	*ymp3* https://www.youtube.com/watch?v=xcXLL1L-ncA
-▌   *td* https://vt.tiktok.com/ZSRAHBJSv/
+▌	*yt* https://www.youtube.com/watch?v=xcXLL1L-ncA | youtube video
+▌	*ymp3* https://www.youtube.com/watch?v=xcXLL1L-ncA | youtube mp3
+▌ *td* https://vt.tiktok.com/ZSRAHBJSv/ | tiktok
 
 
 █ *search query*
@@ -34,9 +34,8 @@
 
 █ *tools*
 ▌	*cpu* (resource print) ex : cpu
-▌   *fc* (full command) ex : fc nslookup google.com
-▌   *cl* (blast message) ex : cl |test|6282246901096@s.whatsapp.net // for personal | cl |test|120363043062813696@g.us // for group
-
+▌ *fc* (full command) ex : fc nslookup google.com
+▌ *cl* (blast message) ex : cl |test|62xxxxxxx@s.whatsapp.net // for personal | cl |test|1203xx04xxx@g.us // for group
 
 
 

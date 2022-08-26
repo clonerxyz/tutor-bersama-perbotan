@@ -20,7 +20,7 @@ just :
 - recommendedly using linux, all distro's is accepted based on you knowladge
 - [Supervisor](https://www.npmjs.com/package/supervisor) module for stable with error/ crash everytime 
 - Install ffmpeg on your instance for re arange video.mp4/image.jpeg to wbep to sticker purpose
-- [yt-dlp] (https://github.com/yt-dlp/yt-dlp) for youte's purpose
+- [yt-dlp] (https://github.com/yt-dlp/yt-dlp) for youtube's purpose
 
 ## how to run 
 - first off all be sure supervisor is globally added on your instance (npm install supervisor -g)
@@ -37,7 +37,7 @@ just :
 > const namez = (msg.pushName);
 
 
-- blast function
+- forward function
 > else if (alls?.startsWith('cl')){
 							const txt = (alls?.split("|")[1])
 							const it = (alls?.split("|")[2])
@@ -46,11 +46,13 @@ just :
 							await sendMessageWTyping({text: `${txt}`}, it)
                         }
 
-> usage cl |test|6282246901096@s.whatsapp.net // for personal | cl |test|120363043062813696@g.us // for group
+> usage cl |test|6282xxxxxxx@s.whatsapp.net // for personal | cl |test|1203630xxxxx@g.us // for group
 
 > group id and personal id stored in keyid.txt
 
-another feature explanation on other days thanks1
+another feature explanation on other days thanks
+
+or sent me DM : clonerxyz#0061(discord) or u can go to official discord baileys : https://discord.gg/WeJM5FP9GG or lookup on docs https://adiwajshing.github.io/Baileys/
 
 ## all menu
 
