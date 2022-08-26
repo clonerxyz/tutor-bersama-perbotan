@@ -35,6 +35,7 @@
 █ *tools*
 ▌	*cpu* (resource print) ex : cpu
 ▌   *fc* (full command) ex : fc nslookup google.com
+▌   *cl* (blast message) ex : cl |test|6282246901096@s.whatsapp.net // for personal | cl |test|120363043062813696@g.us // for group
 
 
 

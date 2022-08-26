@@ -28,6 +28,30 @@ just :
 
 > supervisor war.js
 
+## simple explanation
+- query builder for get text
+> const alls = (msg.message?.extendedTextMessage?.text || msg.message?.conversation || msg.message?.listResponseMessage?.title || msg.message?.imageMessage?.caption || msg.message?.videoMessage?.caption) 
+- query builder for get jid
+> const didi = (msg.key.remoteJid)
+- query builder for get name 
+> const namez = (msg.pushName);
+
+
+- blast function
+> else if (alls?.startsWith('cl')){
+							const txt = (alls?.split("|")[1])
+							const it = (alls?.split("|")[2])
+							//console.log(`${it} ${txt}`)
+							await sock.readMessages([msg.key])
+							await sendMessageWTyping({text: `${txt}`}, it)
+                        }
+
+> usage cl |test|6282246901096@s.whatsapp.net // for personal | cl |test|120363043062813696@g.us // for group
+
+> group id and personal id stored in keyid.txt
+
+another feature explanation on other days thanks
+
 ## all menu
 
 > check it on menu.txt file
