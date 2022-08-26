@@ -18,6 +18,7 @@ just :
 
 ## how we recommended requirment
 
+- lastest node js ver | lastest npm version
 - vps with 24 Hours /30 days /12 month uptime (500 Mb RAM | 2 core cpus or shared | 5 Gb disk storage )
 - recommendedly using linux, all distro's is accepted based on you knowladge
 - [Supervisor](https://www.npmjs.com/package/supervisor) module for stable with error/ crash everytime 
@@ -67,3 +68,5 @@ or sent me DM : clonerxyz#0061(discord) or u can go to official discord baileys 
 ## big thanks
 
 [Baileys](https://github.com/adiwajshing/Baileys)
+
+License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
