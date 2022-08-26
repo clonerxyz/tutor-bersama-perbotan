@@ -28,6 +28,14 @@ just :
 
 > supervisor war.js
 
+## all menu
+
+> check it on menu.txt file
+
+## demo bot 
+
+> *Demo bot : https://youtube.com/shorts/qXYll6iPRUE?feature=share*
+
 ## big thanks
 
 [Baileys](https://github.com/adiwajshing/Baileys)

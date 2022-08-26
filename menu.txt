@@ -22,16 +22,21 @@
 ▌	*spk* (text) ex : spk anooo
 
 
-█ *youtube downloader*
+█ *downloader*
 ▌	*yt* https://www.youtube.com/watch?v=xcXLL1L-ncA
 ▌	*ymp3* https://www.youtube.com/watch?v=xcXLL1L-ncA
+▌   *td* https://vt.tiktok.com/ZSRAHBJSv/
 
 
 █ *search query*
 ▌	*gs* (google search) ex : gs indonesia raya
 ▌	*ys* (youtube search) ex : ys indonesia raya
 
+█ *tools*
+▌	*cpu* (resource print) ex : cpu
+▌   *fc* (full command) ex : fc nslookup google.com
 
-https://chat.whatsapp.com/Ia4EiWLpYDmGZGLEwdlYoA
+
+
 
 
