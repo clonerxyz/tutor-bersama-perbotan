@@ -24,6 +24,7 @@ just :
 - [Supervisor](https://www.npmjs.com/package/supervisor) module for stable with error/ crash everytime 
 - Install ffmpeg on your instance for re arange video.mp4/image.jpeg to wbep to sticker purpose
 - [yt-dlp] (https://github.com/yt-dlp/yt-dlp) for youtube's purpose
+- apt-get install libcairo2-dev libpango1.0-dev libgif-dev build-essential g++ (if u debian based its require for pass canvas installation)
 
 ## how to run 
 - first off all be sure supervisor is globally added on your instance (npm install supervisor -g)
