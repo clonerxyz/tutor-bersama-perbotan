@@ -4,7 +4,7 @@
 
 <img width="10%"  src="https://github.com/clonerxyz/tutor-bersama-perbotan/blob/master/cantik.png"><br/>
 
-<b>Big thanks</b> for the parent of god for all bot nowdays : [Baileys](https://github.com/adiwajshing/Baileys) module for whatsapp.
+<b>Big thanks</b> for the parent of god for all bot nowdays : [Baileys](https://github.com/WhiskeySockets/Baileys) module for whatsapp.
 
 > NOTE : Incase not 100 % safe and for sure use its just for testing only
 
