@@ -56,7 +56,7 @@ just :
 
 another feature explanation on other days thanks
 
-or sent me DM : clonerxyz#0061(discord) or u can go to official discord baileys : https://discord.gg/WeJM5FP9GG or lookup on docs https://adiwajshing.github.io/Baileys/
+or sent me DM : clonerxyz#0061(discord) or u can go to official discord baileys : https://discord.gg/WeJM5FP9GG or lookup on docs https://whiskeysockets.github.io/Baileys/
 
 ## all menu
 
@@ -68,6 +68,6 @@ or sent me DM : clonerxyz#0061(discord) or u can go to official discord baileys 
 
 ## big thanks
 
-[Baileys](https://github.com/adiwajshing/Baileys)
+[Baileys](https://github.com/WhiskeySockets/Baileys)
 
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
