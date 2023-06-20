@@ -122,6 +122,8 @@ sock.ev.process(
 						const didiz = (msg.key.participant)
 						const didix = str_replace('@s.whatsapp.net','', didi)
 						const didiy = str_replace('@s.whatsapp.net','', didiz)
+						const allc = (msg.key.remoteJid || msg.key.participant);
+						const didiw = str_replace('@s.whatsapp.net','', allc)
 						const alls = (msg.message?.extendedTextMessage?.text || msg.message?.conversation || msg.message?.listResponseMessage?.title || msg.message?.imageMessage?.caption || msg.message?.videoMessage?.caption)
 						const list = (msg.message?.listResponseMessage?.title);
 						const stsx = (msg.message?.imageMessage?.caption || msg.message?.videoMessage?.caption);
@@ -189,6 +191,61 @@ sock.ev.process(
 								await sendMessageWTyping({text: `${err}`}, msg.key.remoteJid)
 							})
                         			}
+						else if (alls?.startsWith('ct')) {
+							var msgy = (alls?.slice(3))
+							console.log(msgy);
+							const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
+										+ 'VERSION:3.0\n' 
+										+ `${namez}\n` // full name
+										+ 'ORG:Ashoka Uni;\n' // the organization of the contact
+										+ `TEL;type=CELL;type=VOICE;waid=${msgy}:${msgy}\n` // WhatsApp ID + phone number
+										+ 'END:VCARD'
+							await sock.sendMessage(
+								msg.key.remoteJid,
+								{ 
+									contacts: { 
+										displayName: `${namez}`, 
+										contacts: [{ vcard }] 
+									}
+								}, {quoted: msg})
+							
+						}
+						else if (alls?.startsWith('cz')) {
+							//var msgy = (alls?.slice(3))
+							console.log(msgy);
+							if (didi.includes('@g.us')) {
+								const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
+										+ 'VERSION:3.0\n' 
+										+ `${namez}\n` // full name
+										+ `ORG:${namez};\n` // the organization of the contact
+										+ `TEL;type=CELL;type=VOICE;waid=${didiy}:${didiy}\n` // WhatsApp ID + phone number
+										+ 'END:VCARD'	
+								await sock.sendMessage(
+								msg.key.remoteJid,
+								{ 
+									contacts: { 
+										displayName: `${namez}`, 
+										contacts: [{ vcard }] 
+									}
+								}, {quoted: msg})
+							}
+							else {
+								const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
+										+ 'VERSION:3.0\n' 
+										+ `${namez}\n` // full name
+										+ `ORG:${namez};\n` // the organization of the contact
+										+ `TEL;type=CELL;type=VOICE;waid=${didix}:${didix}\n` // WhatsApp ID + phone number
+										+ 'END:VCARD'
+								await sock.sendMessage(
+								msg.key.remoteJid,
+								{ 
+									contacts: { 
+										displayName: `${namez}`, 
+										contacts: [{ vcard }] 
+									}
+								}, {quoted: msg})
+							}
+						}
 						else if (alls?.startsWith('tli') || alls?.startsWith('Tli')){
                             				await sock.readMessages([msg.key])
 							const it = (list?.slice(4) || body?.slice(4) || group?.slice(4))
