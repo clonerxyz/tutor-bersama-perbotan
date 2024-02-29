@@ -14,7 +14,7 @@
 
 just :
 
-> npm install
+> npm install --force or --legacy-peer-deps
 
 ## how we recommended requirment
 
@@ -42,17 +42,7 @@ just :
 
 
 - forward function
-> else if (alls?.startsWith('cl')){
-							const txt = (alls?.split("|")[1])
-							const it = (alls?.split("|")[2])
-							//console.log(`${it} ${txt}`)
-							await sock.readMessages([msg.key])
-							await sendMessageWTyping({text: `${txt}`}, it)
-                        }
 
-> usage cl |test|6282xxxxxxx@s.whatsapp.net // for personal | cl |test|1203630xxxxx@g.us // for group
-
-> group id and personal id stored in keyid.txt
 
 another feature explanation on other days thanks
 
