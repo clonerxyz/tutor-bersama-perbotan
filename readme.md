@@ -42,7 +42,7 @@ just :
 
 
 - forward function
-
+> curl ip-local:3017/sendz/62xxxx/blablablalbal
 
 another feature explanation on other days thanks
 
