@@ -10,32 +10,11 @@
 
 
 █ *stiker sent*
-▌	*strd* (for show doujin) sticker mode
-▌	*strg* (for show doujin) img mode
 ▌	*sts* on caption
-▌	*rmeme* (for show random meme)
-▌	*nh* (for show hentai)
-
-
-█ *sound menu*   
-▌	*vn* (for hear eargsm )
-▌	*spk* (text) ex : spk anooo
-
 
 █ *downloader*
-▌	*yt* https://www.youtube.com/watch?v=xcXLL1L-ncA | youtube video
-▌	*ymp3* https://www.youtube.com/watch?v=xcXLL1L-ncA | youtube mp3
-▌ *td* https://vt.tiktok.com/ZSRAHBJSv/ | tiktok
+▌ https://vt.tiktok.com/ZSRAHBJSv/ | tiktok
 
-
-█ *search query*
-▌	*gs* (google search) ex : gs indonesia raya
-▌	*ys* (youtube search) ex : ys indonesia raya
-
-█ *tools*
-▌	*cpu* (resource print) ex : cpu
-▌ *fc* (full command) ex : fc nslookup google.com
-▌ *cl* (blast message) ex : cl |test|62xxxxxxx@s.whatsapp.net // for personal | cl |test|1203xx04xxx@g.us // for group
 
 
 
